@@ -30,6 +30,10 @@
     transform: translateY(20px);
     box-shadow: 7px 5px 5px 6px grey;
   }
+  .songs {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
   .musicpic > img {
     width: 300px;

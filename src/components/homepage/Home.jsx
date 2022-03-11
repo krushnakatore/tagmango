@@ -41,12 +41,12 @@ export const Home = () => {
                 <div className="musicpic">
                   <img classname="musicImages" src={e.cover_image} alt="demo" />
                 </div>
-                <div>{e.song}</div>
+                <div className="songs">{e.song}</div>
 
                 <audio controls>
                   <source src={e.url} type="audio/mpeg" />
                 </audio>
-                <div>{e.artists}</div>
+                <div className="artists">{e.artists}</div>
                 <div>
                   <hr />
                 </div>
