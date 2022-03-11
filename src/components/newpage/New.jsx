@@ -16,10 +16,10 @@ const slideImages = [
 export const Slideshow = () => {
   return (
     <div className="mainSlide">
-      <Slide easing="ease">
+      <Slide className="ease">
         {slideImages.map((e, id) => {
           return (
-            <div className="each-slide">
+            <div className="each-slide" key={id}>
               <div
                 style={{
                   backgroundImage: `url(${slideImages[id]})`,

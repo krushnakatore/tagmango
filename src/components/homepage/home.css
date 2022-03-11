@@ -21,6 +21,9 @@
   top: 70px;
   display: flex;
 }
+.filterButtonArtist {
+  width: 100%;
+}
 
 .musicAll:hover {
   transition-duration: 2s;
