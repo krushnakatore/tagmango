@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "../navbar/Navbar";
+import { Slideshow } from "../newpage/New";
 import "./home.css";
 
 export const Home = () => {
@@ -23,7 +24,24 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
+      <Slideshow />
       <div className="homepage"></div>
+      <div className="musicData">
+        {data.map((e, id) => {
+          return (
+            <div key={id} className="musicAll">
+              <div className="musicpic">
+                <img classname="musicImages" src={e.cover_image} alt="demo" />
+              </div>
+              <div>{e.song}</div>
+              <div>{e.artists}</div>
+              <div>
+                <hr />
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
