@@ -18,8 +18,9 @@ export const Navbar = () => {
       <div className="navbarInput">
         <Input placeholder="Search your favourite song"></Input>
       </div>
-      <div style={{ textDecoration: "none" }}>SIGN UP</div>
-      <div style={{ textDecoration: "none" }}>LOG IN</div>
+      <div style={{ textDecoration: "none", fontSize: "20px" }}>
+        Play the Music you like
+      </div>
     </div>
   );
 };

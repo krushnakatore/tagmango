@@ -122,4 +122,10 @@ img {
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
+  .filterButton {
+    margin-left: 0;
+    z-index: 1;
+    /* top: 70px; */
+    display: block;
+  }
 }
