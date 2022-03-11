@@ -2,3 +2,7 @@
   background-image: url("/public/wallpaper.jpg");
   height: 900px;
 }
+.headings {
+  font-size: 40px;
+  color: white;
+}

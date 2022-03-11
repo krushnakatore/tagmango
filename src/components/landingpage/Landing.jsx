@@ -14,6 +14,7 @@ export const Landing = () => {
   }
   return (
     <div className="mainPage">
+      <h1 className="headings">Welcome to Music App</h1>
       <Button onClick={handleHome}>Go to Home Page</Button>
     </div>
   );

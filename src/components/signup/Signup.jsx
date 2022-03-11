@@ -5,6 +5,8 @@ import React from "react";
 import "./signup.css";
 
 export const Signup = () => {
+  function createUser() {}
+
   return (
     <div className="signup">
       <div className="signupLeft"> That's All We Need......</div>
@@ -17,7 +19,10 @@ export const Signup = () => {
         <Input placeholder="Enter Your Password" />
         <br />
         <Input placeholder="Enter Your Phone Number" />
-        <Button className="button">SUBMIT</Button>
+        <br />
+        <Button className="button" onClick={() => createUser()}>
+          SUBMIT
+        </Button>
       </div>
     </div>
   );
