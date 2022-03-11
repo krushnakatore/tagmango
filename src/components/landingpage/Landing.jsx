@@ -13,7 +13,7 @@ export const Landing = () => {
     return <Navigate to="/home" />;
   }
   return (
-    <div>
+    <div className="mainPage">
       <Button onClick={handleHome}>Go to Home Page</Button>
     </div>
   );

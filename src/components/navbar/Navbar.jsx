@@ -9,14 +9,14 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="logodiv">
         <div>
-          <img src={"https://i.ibb.co/ZJDxkjX/download.png"} alt="png" />
+          <Link to="/home">
+            <img src={"https://i.ibb.co/ZJDxkjX/download.png"} alt="png" />
+          </Link>
         </div>
       </div>
-      <div style={{ textDecoration: "none" }}>
-        <Link to="/home">HOME</Link>
-      </div>
-      <div>
-        <Input></Input>
+
+      <div className="navbarInput">
+        <Input placeholder="Search your favourite song"></Input>
       </div>
       <div style={{ textDecoration: "none" }}>
         <Link to="/signup">SIGN UP</Link>

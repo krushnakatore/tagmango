@@ -1,0 +1,23 @@
+.signup {
+  display: flex;
+}
+.signupLeft {
+  width: 49%;
+  font-size: 40px;
+}
+.signupRight {
+  margin-top: 200px;
+  width: 49%;
+}
+
+.signupRight input {
+  padding: 2%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 51%;
+  padding-top: 10px;
+  height: 50px;
+}

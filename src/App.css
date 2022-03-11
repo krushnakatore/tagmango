@@ -1,5 +1,9 @@
 @import "antd/dist/antd.css";
 @import "react-slideshow-image/dist/styles.css";
+body {
+  background-color: #020202;
+  color: aliceblue;
+}
 .App {
   text-align: center;
 }

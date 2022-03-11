@@ -23,7 +23,7 @@ export const Slideshow = () => {
               <div
                 style={{
                   backgroundImage: `url(${slideImages[id]})`,
-                  borderRadius: "10%",
+                  borderRadius: "10px",
                   margin: "40px 40px 0 40px",
                 }}
               ></div>

@@ -1,19 +1,13 @@
-body {
-  background-color: #020202;
-  color: aliceblue;
-}
-
 @media only screen and (max-width: 1900px) {
   /*Tablets [601px -> 1200px]*/
+  /*  */
   .musicData {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    top: 100px;
+    top: 150px;
     position: relative;
-
-    padding: 3%;
-    border: 1px;
+    padding-left: 12%;
   }
   .musicAll {
     padding: 2%;
@@ -22,6 +16,13 @@ body {
     font-size: 15px;
     background-color: #141313;
     border: 1px solid white;
+    cursor: pointer;
+  }
+  .filterButton {
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    display: flex;
   }
 
   .musicAll:hover {
@@ -45,27 +46,26 @@ body {
   .musicData {
     display: flex;
     flex-wrap: wrap;
-
-    top: 50px;
+    top: 150px;
     position: relative;
     padding: 3%;
   }
-  /* .musicAll {
+  .musicAll {
     padding: 2%;
     border-radius: 4%;
     box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
     font-size: 15px;
-  } */
+  }
 
-  /* .musicAll:hover {
+  .musicAll:hover {
     transition-duration: 2s;
     transform: translateY(20px);
     box-shadow: 7px 5px 5px 6px grey;
-  } */
+  }
 
   .musicpic > img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   img {
