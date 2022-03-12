@@ -5,6 +5,8 @@ import { Slideshow } from "../newpage/New";
 import axios from "axios";
 import "./home.css";
 import { Input } from "antd";
+import { FiPlayCircle } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const [data, setData] = useState([]);
@@ -71,6 +73,14 @@ export const Home = () => {
     e.target.value = "";
   };
 
+  const songSingle = (e) => {
+    localStorage.removeItem("song");
+    if (localStorage.getItem("song") === null) {
+      console.log(e, "from sender");
+      localStorage.setItem("song", JSON.stringify(e));
+    }
+  };
+
   return (
     <div>
       <Navbar />
@@ -101,10 +111,21 @@ export const Home = () => {
                   <img classname="musicImages" src={e.cover_image} alt="demo" />
                 </div>
                 <div className="songs">{e.song}</div>
-
-                <audio controls>
+                <Link to="/song">
+                  <FiPlayCircle
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      textDecoration: "none",
+                    }}
+                    onClick={() => songSingle(e)}
+                  >
+                    play the song
+                  </FiPlayCircle>
+                </Link>
+                {/* <audio controls>
                   <source src={e.url} type="audio/mpeg" />
-                </audio>
+                </audio> */}
                 <div className="artists">{e.artists}</div>
                 <div>
                   <hr />

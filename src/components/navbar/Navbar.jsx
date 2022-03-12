@@ -16,9 +16,14 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="namesInp">
-        <div className="navbarInput" style={{ fontSize: "20px" }}>
-          Home
-        </div>
+        <Link to="/home">
+          <div
+            className="navbarInput"
+            style={{ fontSize: "20px", textDecoration: "none" }}
+          >
+            Home
+          </div>
+        </Link>
         <div className="navbarInput" style={{ fontSize: "20px" }}>
           About
         </div>
