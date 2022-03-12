@@ -91,7 +91,7 @@ export const Home = () => {
           Filter by Song
         </Button>
       </div>
-      <Slideshow />
+      <Slideshow className="slideShow" />
       <div className="homepage">
         <div className="musicData">
           {data.map((e, id) => {

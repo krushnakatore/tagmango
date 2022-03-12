@@ -15,10 +15,15 @@ export const Navbar = () => {
           </Link>
         </div>
       </div>
-
-      <div className="navbarInput">
-        <Input placeholder="Search your favourite song"></Input>
+      <div className="namesInp">
+        <div className="navbarInput" style={{ fontSize: "20px" }}>
+          Home
+        </div>
+        <div className="navbarInput" style={{ fontSize: "20px" }}>
+          About
+        </div>
       </div>
+
       <div style={{ textDecoration: "none", fontSize: "20px" }}>
         Play the Music you like
       </div>

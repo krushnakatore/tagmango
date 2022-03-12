@@ -18,7 +18,7 @@
 .filterButton {
   position: fixed;
   z-index: 1;
-  top: 70px;
+  top: 80px;
   display: flex;
 }
 .filterButtonArtist {
@@ -68,7 +68,7 @@ img {
   .filterButton {
     position: fixed;
     z-index: 1;
-    top: 70px;
+    top: 80px;
     display: flex;
   }
 
@@ -121,6 +121,9 @@ img {
 
   img {
     width: 100%;
+  }
+  .slideShow {
+    border: 1px solid white;
   }
 }
 @media only screen and (max-width: 425px) {

@@ -6,9 +6,10 @@
   background-color: #21252d;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   z-index: 1;
   color: aliceblue;
+  cursor: pointer;
 }
 .logodiv div {
   width: 50px;
@@ -20,6 +21,11 @@
 }
 .navbarInput {
   width: 300px;
+  cursor: pointer;
+}
+.namesInp {
+  display: flex;
+  justify-content: space-around;
 }
 @media only screen and (max-width: 1200px) {
   .navbar {
@@ -44,6 +50,7 @@
   }
   .navbarInput {
     width: 300px;
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -55,7 +62,7 @@
     height: 70px;
     background-color: #21252d;
     width: 100%;
-
+    justify-content: space-b;
     z-index: 1;
     color: aliceblue;
   }
@@ -69,5 +76,6 @@
   }
   .navbarInput {
     width: 100px;
+    display: none;
   }
 }
