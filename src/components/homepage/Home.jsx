@@ -76,7 +76,6 @@ export const Home = () => {
   const songSingle = (e) => {
     localStorage.removeItem("song");
     if (localStorage.getItem("song") === null) {
-      console.log(e, "from sender");
       localStorage.setItem("song", JSON.stringify(e));
     }
   };
