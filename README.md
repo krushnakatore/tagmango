@@ -35,5 +35,5 @@ Screeshots =>
 ![](https://raw.githubusercontent.com/krushnakatore/tagmango/master/Screenshot%202022-03-12%20095503.png?token=GHSAT0AAAAAABQ5GURA2WIE5FD42VDYR53MYRMMAFQ)
 4)Added slider(extra)=>
 //
-![]https://raw.githubusercontent.com/krushnakatore/tagmango/master/Screenshot%202022-03-12%20095302.png?token=GHSAT0AAAAAABQ5GURAWONY45SHIZSP7NGIYRMMCUQ)
+![](https://raw.githubusercontent.com/krushnakatore/tagmango/master/Screenshot%202022-03-12%20095302.png?token=GHSAT0AAAAAABQ5GURAWONY45SHIZSP7NGIYRMMCUQ)
 
