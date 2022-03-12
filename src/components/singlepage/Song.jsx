@@ -9,7 +9,9 @@ export const Song = () => {
     const d = localStorage.getItem("song");
     setData(JSON.parse(d));
   }, []);
-  console.log(data);
+
+  console.log(data.url);
+
   return (
     <>
       <Navbar />
